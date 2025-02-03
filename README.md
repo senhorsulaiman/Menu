@@ -94,3 +94,6 @@ const tempSet = new Set(tempCategories);
 const tempItems = ['all', ...tempSet];
 console.log(tempItems);
 ```
+
+### site link
+https://sparkly-smakager-755fd1.netlify.app/
