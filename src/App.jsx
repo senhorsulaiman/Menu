@@ -4,7 +4,6 @@ import items from './data'
 import Menu from "./Menu";
 import Catogories from "./Catogories";
 const allCategories=['all',...new Set(items.map((item)=>item.category))]
-console.log(allCategories)
 const App = () => {
 
   const [menuItems,setMenuItems]=useState(items);
